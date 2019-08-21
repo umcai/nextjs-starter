@@ -1,0 +1,55 @@
+{
+  "name": "monitor",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "NODE_OPTIONS=\"--inspect\" next -p 3050",
+    "build": "NODE_OPTIONS=\"--max-old-space-size=4096\" next build",
+    "start": "next start -- -p 4000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/"
+  },
+  "author": "QIN Fen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/"
+  },
+  "homepage": "https://github.com/",
+  "dependencies": {
+    "@zeit/next-css": "^1.0.1",
+    "axios": "^0.19.0",
+    "classnames": "^2.2.6",
+    "dayjs": "^1.8.15",
+    "immutable": "^4.0.0-rc.12",
+    "next": "^9.0.4",
+    "next-redux-wrapper": "^3.0.0-alpha.3",
+    "normalize.css": "^8.0.1",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0",
+    "react-helmet": "^5.2.1",
+    "react-redux": "^7.1.0",
+    "rebass": "^3.2.2",
+    "redux": "^4.0.4",
+    "redux-thunk": "^2.3.0",
+    "reflect-metadata": "^0.1.13",
+    "sqlite3": "^4.1.0",
+    "styled-components": "^4.3.2",
+    "typeorm": "^0.2.18"
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-class-properties": "^7.5.5",
+    "@babel/plugin-proposal-decorators": "^7.4.4",
+    "@types/node": "^12.7.2",
+    "@types/react": "^16.9.2",
+    "babel-plugin-styled-components": "^1.10.6",
+    "eslint": "^6.2.1",
+    "eslint-config-airbnb": "^17.1.1",
+    "eslint-plugin-react": "^7.14.3",
+    "redux-devtools-extension": "^2.13.8",
+    "typescript": "^3.5.3"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "env": {
+    "browser": true,
+    "es6": true,
+    "commonjs": true
+  },
+  "extends": "eslint:recommended",
+  "parserOptions": {
+    "ecmaVersion": 9,
+    "ecmaFeatures": {
+      "jsx": true
+    },
+    "sourceType": "module"
+  },
+  "plugins": [
+    "react"
+  ],
+  "rules": {
+    "key-spacing"          : "off",
+    "jsx-quotes"           : [1, "prefer-single"],
+    "max-len"              : [1, 120, 2],
+    "object-curly-spacing" : [1, "always"],
+    "comma-dangle"         : "off",
+    "camelcase"            : "off",
+    "react/prop-types"     :0,
+    "react/jsx-uses-vars"  :[2],
+    "no-console"           :0
+  }
+}
