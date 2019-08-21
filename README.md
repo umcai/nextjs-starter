@@ -6,6 +6,7 @@
 - 响应经`gtihub api` -> `/pages/api/*` -> `redux action handler` -> `redux reducer`  
 
 ## Tree
+```
 .
 ├── README.md
 ├── actions
@@ -64,3 +65,4 @@
     ├── formatDate.ts
     ├── number.ts
     └── setJs.ts
+```
